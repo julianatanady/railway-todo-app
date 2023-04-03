@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+$grey: #555555;
+$blue: #242f9b;
+$white: #ffffff;
+$red: #ff3333;
+
+.new-task {
+  width: 1000px;
+  margin: 0 auto;
+
+  &-form {
+    color: $grey;
+  }
+
+  &-select-list,
+  &-title,
+  &-detail {
+    width: 300px;
+    margin-bottom: 25px;
+  }
+
+  &-detail {
+    height: 200px;
+  }
+
+  &-button {
+    background-color: $blue;
+    color: $white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+  }
+}
+
+.error-message {
+  color: $red;
+}
