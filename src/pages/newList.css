@@ -1,19 +1,14 @@
-@charset "utf-8";
-
 .new-list {
   width: 1000px;
   margin: 0 auto;
 }
-
 .new-list-form {
   color: #555555;
 }
-
 .new-list-title {
   width: 300px;
   margin-bottom: 25px;
 }
-
 .new-list-button {
   background-color: #242f9b;
   color: #ffffff;
@@ -21,3 +16,5 @@
   height: 40px;
   border-radius: 5px;
 }
+
+/*# sourceMappingURL=newList.css.map */

@@ -1,12 +1,16 @@
-@charset "utf-8";
-
 .signin {
   width: 500px;
   margin: 0 auto;
 }
-
 .signin-form {
   margin: 25px 0;
+}
+.signin-button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 .email-label,
@@ -22,14 +26,8 @@
   margin-bottom: 25px;
 }
 
-.signin-button {
-  background-color: #242f9b;
-  color: #ffffff;
-  width: 100px;
-  height: 40px;
-  border-radius: 5px;
-}
-
 .error-message {
   color: #ff3333;
 }
+
+/*# sourceMappingURL=signin.css.map */
